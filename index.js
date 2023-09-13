@@ -10,7 +10,7 @@ const proxy = new Corrosion({
     forceHttps: true,
     requestMiddleware: [
         Corrosion.middleware.blacklist([
-            "pornhub.com",
+            "accounts.google.com",
         ], "Page is blocked"),
     ]
 })
